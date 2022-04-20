@@ -8,8 +8,8 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
-import SearchBooks from './pages/SearchBooks';
-import SavedBooks from './pages/SavedBooks';
+import SearchBooks from './pages/searchBooks';
+import SavedBooks from './pages/savedBooks';
 import Navbar from './components/Navbar';
 
 const httpLink = createHttpLink ({
