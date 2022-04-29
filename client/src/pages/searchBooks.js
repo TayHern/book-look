@@ -10,7 +10,7 @@ import {
 } from 'react-bootstrap';
 
 import { useMutation } from '@apollo/client';
-import { SAVE_BOOK } from '../utils/mutations';
+import { save_book } from '../utils/mutations';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 import Auth from '../utils/auth';
@@ -21,7 +21,7 @@ const SearchBooks = () => {
 
   const [savedBookIds, setSavedBookIds] = useState(getSavedBookIds());
 
-  const [saveBook, { error }] = useMutation(SAVE_BOOK);
+  const [saveBook, { error }] = useMutation(save_book);
 
   useEffect(() => {
     return () => saveBookIds(savedBookIds);
