@@ -1,11 +1,10 @@
 
-<h1 align="center">Project Title </h1>
+<h1 align="center">Book-Search </h1>
 
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Description
+This is a book search for those wanting to be able to look up and add books to lists.
 
-
-![images]()
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -15,9 +14,12 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-Just run the application by going to <link>
+Just run the application by going to https://book-look-22.herokuapp.com/
+
+Make sure to create a .env file with SKIP_PREFLIGHT_CHECK=true as there is an issue with babel.
+
 ## Usage
-Who is the indtende audience?
+Those who love books
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
